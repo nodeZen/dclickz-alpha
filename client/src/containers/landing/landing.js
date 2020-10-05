@@ -16,11 +16,11 @@ class Landing extends Component {
         return (
             <div>     
                 {/* <p>Foo:{this.props.islogin}</p>                                     */}
-                    <Switch>                        
+                    <Switch>                                    
+                       {this.props.islogin === 1? <Route exact path="/homepage" component={HomePage}/>:null}  
+                       {this.props.islogin === 1? <Redirect path from="/login" to="/homepage"/>:null}                      
                     <Route path = "/login" component = {Login}/> 
                     <Route exact path="/register" component={Register}/>                    
-                       {this.props.islogin === 1? <Route exact path="/homepage" component={HomePage}/>:null}  
-                       {this.props.islogin === 1? <Redirect path from="/login" to="/homepage"/>:null}  
                     <Redirect path from="/" to="/login"/>
                     </Switch>                    
             </div>
