@@ -1,0 +1,30 @@
+.Login{    
+    margin-top: 8cm;    
+    align-items:center;    
+}
+
+.Login input{
+    width: 20rem;
+    height: 1cm;
+    margin-bottom: 0.5cm; 
+    background: transparent;
+    color: #f2f4f4;  
+}
+
+.Login button{
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    padding: 20px 70px 20px 70px;
+    margin-top: 30px;
+       background: linear-gradient(270deg, #0054b0, #026fe6, #02a8e6, #02dae6);	
+    animation: GradientAnimate 12s ease infinite;
+      background-size: 600% 600%;
+    font-family: "Quicksand", sans-serif;
+    color: #f2f4f4;
+    letter-spacing: 2px;
+}
+
+.Login button:hover{
+    cursor: pointer;
+}

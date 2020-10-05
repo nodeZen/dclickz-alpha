@@ -1,0 +1,23 @@
+.InvalidForm p{
+    text-align:start;
+    margin-left: 12cm;
+    margin-bottom: 0;
+}
+
+.Register{    
+    margin-top: 8cm;    
+    align-items:center;    
+}
+
+.RegistrationForm input{
+    width: 20rem;
+    height: 1cm;
+    margin-bottom: 0.5cm;
+}
+
+.RegistrationForm button{
+    width: 10rem;
+    height: 1cm;
+}
+
+
